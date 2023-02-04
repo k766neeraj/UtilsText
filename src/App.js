@@ -53,8 +53,7 @@ function App() {
   return (
     <>
       {/* <Router> */}
-
-
+    <div className="container">
         <Navbar title="UtilsText" aboutText="About Us" color={color} mode={mode} toggleMode={toggleMode} toggleColor={toggleColor} />
         <Alert alert={alert} />
         <div className="container">
@@ -78,6 +77,7 @@ function App() {
         </div>
         {/* </div>
       </Router> */}
+</div>
     </>
   );
 
